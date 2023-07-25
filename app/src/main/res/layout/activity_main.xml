@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:orientation="vertical"
+          >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="50dp"
+                  android:gravity="center"
+                  android:text="Average Calculator"
+                  android:textStyle="bold"
+                  android:textSize="35dp"
+                  android:textColor="#FA0A5B"
+                  />
+
+              <ImageView
+                  android:layout_width="100dp"
+                  android:layout_height="100dp"
+                  android:src="@drawable/avrg"
+                  android:gravity="center"
+                  />
+
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal"
+              >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/Stname"
+                  android:layout_marginLeft="20dp"
+                  android:textStyle="bold"
+                  android:textSize="22dp"
+                  android:textColor="#FA0A5B"
+                  />
+
+              <EditText
+                  android:id="@+id/stname"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/black"
+                  android:gravity="center"
+                  />
+          </LinearLayout>
+
+          <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  >
+
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Marks 1"
+                      android:layout_marginLeft="20dp"
+                      android:textStyle="bold"
+                      android:textSize="25dp"
+                      android:textColor="#FA0A5B"
+                      />
+
+                  <EditText
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/marks1"
+                      android:textColor="@color/black"
+                      android:gravity="center"
+                      />
+
+
+              </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal"
+              >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Marks 2"
+                  android:layout_marginLeft="20dp"
+                  android:textStyle="bold"
+                  android:textSize="25dp"
+                  android:textColor="#FA0A5B"
+                  />
+
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/marks2"
+                  android:textColor="@color/black"
+                  android:gravity="center"
+                  />
+
+
+          </LinearLayout>
+
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal"
+              >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Marks 3"
+                  android:layout_marginLeft="20dp"
+                  android:textStyle="bold"
+                  android:textSize="25dp"
+                  android:textColor="#FA0A5B"
+                  />
+
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/marks3"
+                  android:textColor="@color/black"
+                  android:gravity="center"
+                  />
+
+
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal"
+              >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Total"
+                  android:layout_marginLeft="20dp"
+                  android:textStyle="bold"
+                  android:textSize="25dp"
+                  android:textColor="#FA0A5B"
+                  />
+
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/total"
+                  android:textColor="@color/black"
+                  android:gravity="center"
+                  />
+
+
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal"
+              >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Average"
+                  android:layout_marginLeft="20dp"
+                  android:textStyle="bold"
+                  android:textSize="25dp"
+                  android:textColor="#FA0A5B"
+                  />
+
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/Average"
+                  android:textColor="@color/black"
+                  android:gravity="center"
+                  />
+
+
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal"
+              >
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Grade"
+                  android:layout_marginLeft="20dp"
+                  android:textStyle="bold"
+                  android:textSize="25dp"
+                  android:textColor="#FA0A5B"
+                  />
+
+              <EditText
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/Grade"
+                  android:textColor="@color/black"
+                  android:gravity="center"
+                  />
+
+          </LinearLayout>
+
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/btn1"
+                  android:text="OK"
+                  android:background="@color/black"
+                  android:textColor="@color/white"
+                  />
+
+              <Button
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/btn2"
+                  android:text="Clear"
+                  android:background="@color/black"
+                  android:textColor="@color/white"
+                  />
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
